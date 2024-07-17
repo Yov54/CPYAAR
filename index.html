@@ -50,7 +50,7 @@
                 clean: true,
             }
 
-            client = mqtt.connect('wss://broker.hivemq.com:8000/mqtt', options);
+            client = mqtt.connect('wss://broker.hivemq.com:8884/mqtt', options);
 
             client.on('connect', () => {
                 console.log('Connected');
